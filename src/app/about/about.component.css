@@ -1,0 +1,42 @@
+section {
+  display: flex;
+  flex-direction: column;
+  width: 40vw;
+  border: 1px solid rgb(239, 239, 239);
+  padding: 0 1em;
+  border-radius: 10px;
+}
+
+h1::after {
+  content: "";
+  display: block;
+  width: 30%;
+  height: 5px;
+  background-color: black;
+  margin-top: 5px;
+}
+
+p {
+  text-align: justify;
+}
+
+.redes {
+  display: flex;
+  gap: .5em;
+  padding-bottom: 1em;
+}
+
+.redes a {
+  background-color:rgb(239, 239, 239);
+  border: 1px solid rgb(206, 206, 206);
+  font-size: 1.5em;
+  padding: .25em;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: .35s;
+  color: black;
+}
+
+.redes a:hover {
+  background-color:rgb(206, 206, 206);
+}
