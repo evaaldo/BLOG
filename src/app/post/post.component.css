@@ -1,0 +1,31 @@
+section {
+  display: flex;
+  flex-direction: column;
+  width: 40vw;
+  border: 1px solid rgb(239, 239, 239);
+  padding: 0 1em;
+  border-radius: 10px;
+}
+
+.projetos {
+  display: flex;
+  flex-direction: column;
+  gap: .5em;
+}
+
+.projeto {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 1em;
+}
+
+a {
+  font-size: 1.05em;
+  color: gray;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+small {
+  font-weight: 700;
+}
