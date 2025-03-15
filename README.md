@@ -14,3 +14,7 @@
 docker-compose up --build -d
 docker-compose down
 ```
+
+## 📸 Demo
+
+![Demo](./src/assets/demo.png)
