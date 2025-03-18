@@ -1,5 +1,7 @@
 # Blog
 
+<small>Finalizado✅</small>
+
 **br:** Um blog **estático** construído com o intuito de colocar conhecimentos sobre angular em prática.<br/>
 **en:** A **static** blog made to practice and learn more about angular.
 
